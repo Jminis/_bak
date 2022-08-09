@@ -1,0 +1,13 @@
+ Lab03: man-strncpy
+===================
+
+   strcpy()는 위험하고 strncpy()는 안전할까요? "man strncpy"
+   명령으로 주의깊게 읽어보시기 바랍니다.
+
+ - target    : target
+ - type      : local
+ - arch      : 32
+ - level     : 55
+ - points    : 20
+ - uid       : 23055
+ - hashval   : 4C45B0F3

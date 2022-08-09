@@ -1,0 +1,24 @@
+ Lab02: shellcode-poly
+======================
+
+   32bit와 64bit 모두 통과할 수 있는 쉘코드를 만들어 봅시다.
+
+   In this challenge, you will be creating a shellcode that works on
+   both x86 (32-bit) and x86_64 (64-bit) architectures!
+   
+   $ cat readflag.bin | ./target
+   
+   target 바이너리를 target32, target64를 각각 테스트해서
+   모두 성공할 경우 flag를 출력합니다.
+
+   테스트 목적으로 target32, target64 바이너리에 쉘코드를 보내도 되지만,
+   실제 flag를 얻기 위해서는 target바이너리에 최종적으로 테스트해야 합니다.
+
+
+ - target    : target
+ - type      : misc
+ - arch      : 64
+ - level     : 50
+ - points    : 20
+ - uid       : 22050
+ - hashval   : 48B8A005

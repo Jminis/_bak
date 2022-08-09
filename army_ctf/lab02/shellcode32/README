@@ -1,0 +1,33 @@
+ Lab02: shellcode32
+===================
+
+   가장 기본적인 문제입니다. 쉘코드를 만들어서 /proc/flag 파일을 읽어보세요.
+   
+    ; build
+    $ ./make.sh
+   
+    ; shellcode to launch
+    $ objdump -m i386 -D -b binary shellcode.bin
+   
+    ; fire
+    $ (cat shellcode.bin; echo; cat) | ./test_your_shellcode
+    ...
+    cat /proc/flag
+   
+
+    불행하게도 위 방법으로는 유효한 flag를 읽을 수 없습니다. 왜냐면
+    target  바이너리를 통해 읽은 flag만 유효하기 때문입니다.
+
+    아래의 목표를 달성하세요.
+   
+    ; run your shellcode
+    $ cat readflag.bin | ./target 
+   
+
+ - target    : target
+ - type      : misc
+ - arch      : 32
+ - level     : 35
+ - points    : 20
+ - uid       : 22035
+ - hashval   : BAD01A7B

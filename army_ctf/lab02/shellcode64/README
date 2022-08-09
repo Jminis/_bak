@@ -1,0 +1,29 @@
+ Lab02: shellcode64
+===================
+
+   이번에는 64비트입니다.
+   
+   ; build
+   $ ./make.sh
+   
+   ; shellcode to launch
+   $ objdump -m i386:x86-64 -D -b binary shellcode.bin
+   
+   ; fire
+   $ (cat shellcode.bin; echo;  cat) | ./test_your_shellcode
+   ...
+   cat /proc/flag
+   
+   32비트와 마찬가지로 /proc/flag를 직접 읽을 수 있도록 쉘코드를 만들어보세요
+   
+   ; run your shellcode
+   $ cat readflag.bin | ./target
+   
+
+ - target    : target
+ - type      : misc
+ - arch      : 64
+ - level     : 40
+ - points    : 20
+ - uid       : 22040
+ - hashval   : C41B46C4

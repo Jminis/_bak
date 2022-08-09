@@ -1,0 +1,14 @@
+ Lab03: frobnicated
+===================
+
+   다음을 검색해 보시고 힌트를 얻으세요
+   
+     $ man memfrob
+
+ - target    : target
+ - type      : local
+ - arch      : 32
+ - level     : 23
+ - points    : 20
+ - uid       : 23023
+ - hashval   : E569718A

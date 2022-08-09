@@ -1,0 +1,16 @@
+ Lab03: jmp-to-stack
+====================
+
+   Try?
+   
+   $ SHELLCODE="hi" ./target 1
+   
+   환경변수가 없는데 이제는 어떻게 하지요?
+
+ - target    : target
+ - type      : local
+ - arch      : 32
+ - level     : 20
+ - points    : 20
+ - uid       : 23020
+ - hashval   : F1588EFA

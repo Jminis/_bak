@@ -1,0 +1,19 @@
+# Lab03: buf-ovfl
+
+이번 랩에서는 stack-based buffer overflows를 공격합니다. 이번 실습을 통해
+보다 진보된 공격코드를 작성할 수 있는 준비를 하게 될 것입니다.
+
+* Problems
+
+  + [level 00] jmp-to-env           [20 points]
+  + [level 01] jmp-to-stack         [20 points]
+  + [level 02] frobnicated          [20 points]
+  + [level 03] argc0                [20 points]
+  + [level 04] lack-of-four         [20 points]
+  + [level 05] jmp-to-where         [20 points]
+  + [level 06] man-strncpy          [20 points]
+
+* Refs
+
+  - <http://phrack.org/issues/49/14.html>
+  - <http://phrack.org/issues/55/8.html>

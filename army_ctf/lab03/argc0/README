@@ -1,0 +1,12 @@
+ Lab03: argc0
+=============
+
+   argc는 0이 되어야 합니다. 어디로 공격할 수 있을까요?
+
+ - target    : target
+ - type      : local
+ - arch      : 32
+ - level     : 25
+ - points    : 20
+ - uid       : 23025
+ - hashval   : 4DDD1E5A

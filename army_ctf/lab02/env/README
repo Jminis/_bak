@@ -1,0 +1,12 @@
+ Lab02: env
+===========
+
+   이번 문제에서는 다양한 layout을 보면서 내가 원하는 정보가 어디에 있는지 찾을거예요.
+
+ - target    : target
+ - type      : misc
+ - arch      : 64
+ - level     : 31
+ - points    : 20
+ - uid       : 22031
+ - hashval   : 414B927E
